@@ -1,0 +1,106 @@
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+p {
+    color: blue;
+}
+
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: red;
+}
+
+#paragraph2 {
+    color: green;
+}
+
+/* div {
+    color: darkgreen;
+} */
+/* 
+a {
+    color: yellow;
+}
+
+ol {
+    color: red;
+}
+
+.main__block-text {
+    color: green;
+}
+
+.paragraph1__text {
+    color: orangered;
+}
+
+p span {
+    color: black; */
+
+span {
+    color: darkred;
+}
+
+.paragraph3__text + ul {
+    color: blueviolet;
+}
+
+.paragraph1__text ~ p {
+    color: black;
+}
+
+.paragraph1__text > span {
+    color: blue;
+}
+
+a {
+    color: darkgreen;
+}
+
+.start__paragraph {
+    color: darkblue;
+}
+
+.paragraph1 .text2 {
+    color: green ;
+}
+
+footer nav {
+    color: red;
+}
+
+* {
+    color: red;
+}
